@@ -6,7 +6,48 @@
     <link rel="stylesheet" href="blog-main.css">
 </head>
 <body>
+    <style>*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ol, ul, li{
+    list-style: none;
+}
+header{
+    width:1240px;
+    margin: auto;
+}
+header>div{
+    background:ivory;
+    padding:20px 0;
+}
+header>div>.things{
+    background:lightblue;
+    opacity:0.8;
+    text-align: center;
     
+}
+header>.top>ul::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+header>.top>ul>li{
+    float:left;
+    display:inline-block;
+    width:20%;
+    padding:10px;
+    box-sizing:border-box;
+    cursor:pointer;
+    font-size:15px;
+}
+header>.top>ul>li:hover{
+    color:ivory;
+}</style>
     <header>
         <div class="top">            
                 <ul class="things">
