@@ -2,63 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>blog-main</title>
-    <link rel="stylesheet" href="blog-main.css">
+    <title>배은경 기술 블로그</title>
+
+    <link rel="stylesheet" href="./lib.css">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
-    <style>*{
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-    color:inherit;
-}
-ol, ul, li{
-    list-style: none;
-}
-header{
-    width:1240px;
-    margin: auto;
-}
-header>div{
-    background:ivory;
-    padding:20px 0;
-}
-header>div>.things{
-    background:lightblue;
-    opacity:0.8;
-    text-align: center;
-    
-}
-header>.top>ul::after{
-    content:"";
-    display:block;
-    clear:both;
-}
-header>.top>ul>li{
-    float:left;
-    display:inline-block;
-    width:20%;
-    padding:10px;
-    box-sizing:border-box;
-    cursor:pointer;
-    font-size:15px;
-}
-header>.top>ul>li:hover{
-    color:ivory;
-}</style>
-    <header>
-        <div class="top">            
-                <ul class="things">
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                </ul>           
-        </div>
-    </header>
-    
-</body>
-</html>
+    <h1 class="title-box-1 con">배은경 기술 블로그 - 홈</h1>
+
+    <h2 class="title-box-2 con">글 목록</h2>
+
+    <div class="article-list-box con">
+        <ul>
+            <li><a href="article/6.html">자바스크립트 이벤트 상위 전파 금지하기</a></li>
+            <li><a href="article/5.html">CSS display 예제</a></li>
+            <li><a href="article/4.html">CSS 3가지 색상의 막대 만들기</a></li>
+            <li><a href="article/3.html">CSS display 속성 정리</a></li>
+            <li><a href="article/2.html">두번째 글 입니다.</a></li>
+            <li><a href="article/1.html">첫번째 글 입니다.</a></li>
+        </ul>
+    </div>
+</body></html>
